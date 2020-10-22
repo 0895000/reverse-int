@@ -1,5 +1,5 @@
 module.exports = function reverse (n) {
- let str = '';
+ let arr = [];
 
 let arr1 = str.split('');
 let arr2 = arr1.reverse();
