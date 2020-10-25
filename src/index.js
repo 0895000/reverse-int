@@ -1,9 +1,3 @@
 module.exports = function reverse (n) {
- let arr = [];
-
-let arr1 = str.split('');
-let arr2 = arr1.reverse();
-let result = arr2.join('');
-
-console.log(result); 
+    return n.toString().split('').reverse().join('').replace(/[\-]/g, '');
 }
